@@ -1,0 +1,35 @@
+# Node.js dependencies
+node_modules/
+
+# Backend specific
+/backend/node_modules/
+
+# Frontend specific
+/frontend/node_modules/
+
+# Keep environment variables out of version control
+.env
+/frontend/.env
+/backend/.env
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+.next/             # Next.js build output (frontend)
+out/               # Next.js output (frontend)
+build/             # React build output (frontend)
+dist/              # General build output (backend)
+coverage/          # Test coverage reports
+
+# IDE and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Optional: Ignore files related to Docker (if you're using Docker)
+docker-compose.yml
+Dockerfile
